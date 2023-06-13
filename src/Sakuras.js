@@ -83,7 +83,7 @@ function Sakura({ color }) {
 export function Sakuras() {
   const [arr] = useState(() => {
     let a = [];
-    for (let i = 0; i < 300; i++) a.push(0);
+    for (let i = 0; i < 100; i++) a.push(0);
     return a;
   });
 
